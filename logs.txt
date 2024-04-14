@@ -1,0 +1,41 @@
+commit 3bcfbbd42ea1819aeb5840c8d4f17c4d60ab3f56
+Author: georgievskaana <anageorgievska03@gmail.com>
+Date:   Sun Apr 14 13:30:32 2024 +0200
+
+    Done
+
+commit b711015d3015b34a74937021ebd488bc35ebd12f
+Author: georgievskaana <anageorgievska03@gmail.com>
+Date:   Sun Apr 14 13:10:50 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit d1100277cb5878ec86b3f2ee8f8de74fec088c53
+Author: georgievskaana <anageorgievska03@gmail.com>
+Date:   Sun Apr 14 13:12:45 2024 +0200
+
+    Call method filterOddLengthStrings in main class.
+
+commit 593145d2c31f21d810316d178e4957d4c599aafd
+Author: georgievskaana <anageorgievska03@gmail.com>
+Date:   Sun Apr 14 13:09:16 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 69cfc294c0d70f8cec411a7cfe72514973724ad0
+Author: georgievskaana <anageorgievska03@gmail.com>
+Date:   Sun Apr 14 13:03:01 2024 +0200
+
+    Add starter code
+
+commit bb88c7d83c52a2a2ecfd487dfaddc449acc49753
+Author: georgievskaana <anageorgievska03@gmail.com>
+Date:   Sun Apr 14 12:58:00 2024 +0200
+
+    Add starter code
+
+commit 3eb4254111d05b9ecb9d8cc80f6ab6df66a1ccd9
+Author: georgievskaana <anageorgievska03@gmail.com>
+Date:   Sun Apr 14 12:55:07 2024 +0200
+
+    Initial commit
