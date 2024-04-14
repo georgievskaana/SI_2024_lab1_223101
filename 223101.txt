@@ -1,0 +1,99 @@
+4, 5. Laptop@Ana MINGW64 ~/Desktop/si lab1 (master)
+$ git remote add origin https://github.com/georgievskaana/SI_2024_lab1_223101.git
+
+Laptop@Ana MINGW64 ~/Desktop/si lab1 (master)
+$ git commit -m "initial"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+6. Laptop@Ana MINGW64 ~/Desktop/si lab1 (master)
+$ nano README.md
+
+Laptop@Ana MINGW64 ~/Desktop/si lab1 (master)
+$ git add README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+Laptop@Ana MINGW64 ~/Desktop/si lab1 (master)
+$ git commit -m "Initial commit"
+[master (root-commit) 3eb4254] Initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+7.$ git add SILab1Main.java
+$ git add  SILab1_1.java
+$ git add SILab1_2.java
+$ git commit -m "Add starter code"
+
+8. git push origin master
+
+9. git checkout -b bug1 master
+git checkout master
+git checkout -b bug2 master
+
+10. git checkout bug1
+
+11. nano SILab1_1.java
+ git add SILab1_1.java
+ git commit -m "Fix wrong condition in filterOddLengthStrings"
+
+12. git checkout bug2
+
+13. nano SILab1_2.java
+git add SILab1_2.java
+git commit -m "Fix wrong condition in makeBigStringFrom"
+
+14. git checkout bug1
+
+15. nano SILab1Main.java
+git add SILab1Main.java
+git commit -m "Call method filterOddLengthStrings in main class."
+
+16. git checkout bug2
+
+17. nano SILab1Main.java
+git add SILab1Main.java
+git commit -m " Call method makeBigStringFrom in main class."
+git checkout bug2
+
+18. git push origin master
+git push origin bug1
+git push origin bug2
+
+19. git checkout master
+
+20.  git merge bug1
+
+21. git checkout bug1
+git push origin bug1
+git checkout bug2
+git push origin bug2
+
+22. git checkout bug2
+
+23. git rebase master
+nano SILab1Main.java
+git add SILab1Main.java
+git commit -m "Done"
+git rebase --continue
+
+24. git checkout master
+
+25. git merge bug2
+
+26. git fetch origin
+git push origin master
+git push origin bug1
+
+27. $ git push --force origin bug2
+
+28. git log > logs.txt
+$ echo "lab1 softversko" > 223101.txt
+
+29. git fetch origin
+git push origin master
+git push origin bug1
+git push origin bug2
+
